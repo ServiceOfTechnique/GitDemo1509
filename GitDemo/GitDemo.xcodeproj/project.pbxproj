@@ -14,7 +14,11 @@
 		BCF2B9DA1BCB5B2C00A20D51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF2B9D91BCB5B2C00A20D51 /* Images.xcassets */; };
 		BCF2B9DD1BCB5B2C00A20D51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF2B9DB1BCB5B2C00A20D51 /* LaunchScreen.xib */; };
 		BCF2B9E91BCB5B2D00A20D51 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF2B9E81BCB5B2D00A20D51 /* GitDemoTests.m */; };
+
 		BCF2B9F71BCB657A00A20D51 /* Second.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF2B9F61BCB657A00A20D51 /* Second.m */; };
+
+		BCF2B9F41BCB643A00A20D51 /* Fist.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF2B9F31BCB643A00A20D51 /* Fist.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +45,13 @@
 		BCF2B9E21BCB5B2D00A20D51 /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF2B9E71BCB5B2D00A20D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF2B9E81BCB5B2D00A20D51 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+
 		BCF2B9F51BCB657A00A20D51 /* Second.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Second.h; sourceTree = "<group>"; };
 		BCF2B9F61BCB657A00A20D51 /* Second.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Second.m; sourceTree = "<group>"; };
+
+		BCF2B9F21BCB643A00A20D51 /* Fist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fist.h; sourceTree = "<group>"; };
+		BCF2B9F31BCB643A00A20D51 /* Fist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fist.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +75,13 @@
 		BCF2B9C01BCB5B2B00A20D51 = {
 			isa = PBXGroup;
 			children = (
+
 				BCF2B9F51BCB657A00A20D51 /* Second.h */,
 				BCF2B9F61BCB657A00A20D51 /* Second.m */,
+
+				BCF2B9F21BCB643A00A20D51 /* Fist.h */,
+				BCF2B9F31BCB643A00A20D51 /* Fist.m */,
+
 				BCF2B9CB1BCB5B2C00A20D51 /* GitDemo */,
 				BCF2B9E51BCB5B2D00A20D51 /* GitDemoTests */,
 				BCF2B9CA1BCB5B2C00A20D51 /* Products */,
@@ -227,7 +241,11 @@
 				BCF2B9D51BCB5B2C00A20D51 /* ViewController.m in Sources */,
 				BCF2B9D21BCB5B2C00A20D51 /* AppDelegate.m in Sources */,
 				BCF2B9CF1BCB5B2C00A20D51 /* main.m in Sources */,
+
 				BCF2B9F71BCB657A00A20D51 /* Second.m in Sources */,
+
+				BCF2B9F41BCB643A00A20D51 /* Fist.m in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
